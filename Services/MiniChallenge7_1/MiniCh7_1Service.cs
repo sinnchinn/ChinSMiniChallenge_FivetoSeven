@@ -10,7 +10,7 @@ namespace ChinSMiniChallenge_FivetoSeven.Services.MiniChallenge7_1
                 reverse += userInput[i]; 
             }
 
-            return $"here is your input in reverse: {reverse}";
+            return $"you entered {userInput}. here is your input in reverse: {reverse}";
         }
     }
 }

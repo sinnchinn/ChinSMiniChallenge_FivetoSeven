@@ -16,7 +16,7 @@ public class MiniCh7_2Service : IMiniCh7_2Service
                     reverse += realNums1.ToString()[i];
                 }
 
-                return $"here are those numbers in reverse: {reverse}";
+                return $"you entered {realNums1}. here are those numbers in reverse: {reverse}";
             } else {
                 return "these are not numbers!";
             }
